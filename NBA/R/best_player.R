@@ -8,7 +8,7 @@
 #' best_player_function()
 
 best_player <- function(x){
-  year <- dplyr::filter(arrange(select(nbadata, Year, Player, PTS), desc(PTS)), Year == x)
+  year <- dplyr::filter(dplyr::arrange(dplyr::select(nbadata, Year, Player, PTS), desc(PTS)), Year == x)
   output <- year[1, 2]
   return(output)
 }

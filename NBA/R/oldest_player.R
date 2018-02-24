@@ -8,7 +8,7 @@
 #' oldest_player_function()
 
 oldest_player <- function(x){
-  year <- dplyr::filter(arrange(select(nbadata, Year, Player, Age), desc(Age)), Year == x)
+  year <- dplyr::filter(dplyr::arrange(dplyr::select(nbadata, Year, Player, Age), desc(Age)), Year == x)
   output <- year[1, 2]
   return(output)
 }
