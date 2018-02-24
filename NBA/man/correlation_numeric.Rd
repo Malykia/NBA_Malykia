@@ -13,8 +13,6 @@ correlation_numeric(x)
 This function allows you to calculate the correlation matrix for all numeric variables in the data for a year
 }
 \examples{
-correlation_numeric(2008)
 correlation_numeric_function
 }
 \keyword{correlation}
-\keyword{matrix}

@@ -13,10 +13,6 @@ best_player(x)
 This function allows you to find the player for a certain year who scored the most points.
 }
 \examples{
-best_player(2008)
 best_player_function()
 }
-\keyword{most}
-\keyword{point}
 \keyword{scored}
-\keyword{the}

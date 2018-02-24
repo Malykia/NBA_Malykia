@@ -13,8 +13,6 @@ oldest_player(x)
 This function allows you to find the player for a certain are the oldest.
 }
 \examples{
-oldest_player(2008)
 oldest_player_function()
 }
 \keyword{oldest}
-\keyword{player}
